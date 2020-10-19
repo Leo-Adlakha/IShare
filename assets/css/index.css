@@ -1,0 +1,103 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(51,51,51, 0.3) ;
+    position: relative;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: 'Modak', cursive;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    text-shadow:
+       3px 3px 0 #fff,
+     -1px -1px 0 #fff,  
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+    font-size: 50px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-common a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+hr{
+    background-color: black;
+    margin: 0;
+    /* border-top: 0; */
+}
+
+.quote-container{
+    width: 100%;
+    background-color: rgba(51,51,51, 0.1);
+}
+
+.quote-content{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.quote-content h2 strong{
+    font-size: 30px;
+    color: #861111;
+    font-family: 'Sansita Swashed', cursive;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+       3px 3px 0 #fff,
+     -1px -1px 0 #fff,  
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff;
+    letter-spacing: 2px;
+}
+
+.quote-content h2{
+    margin-bottom: 0;
+    padding: 0;
+    flex-basis: 25%;
+    padding-left: 10px;
+}
+
+.quote-content p{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 30px;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    /* text-shadow:
+       3px 3px 0 #fff,
+     -1px -1px 0 #fff,  
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff; */
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+}
